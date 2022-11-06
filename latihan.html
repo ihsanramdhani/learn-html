@@ -9,6 +9,25 @@
         header {
             text-align: center;
         }
+        article {
+            text-align: center;
+        }
+        img {
+            border-radius: 50%; /*border: 5px solid;*/
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        td {
+            padding: 10px;
+        }
+        footer {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -16,12 +35,12 @@
     <a href="latihan.html">Home</a>
     <a href="cv.html">Download CV</a>
     <a href="contact.html">Contact</a>
-    <a href="about.html">About me</a>
+    <a href="about.html" target="_blank">About me</a>
     <!-- akhir bagian menu -->
 
     <!-- jumbotron -->
     <header>
-        <img src="resources/hachiman.jpg" alt="gambar user" width="100px" height="100px">
+        <img src="resources/hachiman.jpg" alt="gambar user" width="200px" height="200px">
         <h1>Ihsan Ramdhani</h1>
         <h3>Pengangguran</h3>
     </header>
@@ -36,19 +55,38 @@
     <!-- akhir overview -->
 
     <!-- list -->
-    <p>Skill</p>
-    <ul>
-        <li>HTML</li>
-        <li>Python</li>
-        <li>Golang</li>
-    </ul>
-
-    <p>Pengalaman</p>
-    <ul>
-        <li>Pengalaman 1</li>
-        <li>Pengalaman 2</li>
-        <li>Pengalaman 3</li>
-    </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Skill</th>
+            <th>Pengalaman</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>HTML</li>
+                    <li>Python</li>
+                    <li>Golang</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Pengalaman 1</li>
+                    <li>Pengalaman 2</li>
+                    <li>Pengalaman 3</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
     <!-- akhir list -->
+    <hr>
+    <!-- footer -->
+    <footer>
+        Copyright 2022 &#169 Ihsan 
+    </footer>
+    <!-- akhir footer -->
 </body>
 </html>
